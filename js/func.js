@@ -5,8 +5,7 @@ function check()
     var q3 = document.quiz.q3.value;
     var q4 = document.quiz.q4.value;
     var porcentaje;
-    var cont=0;
-   
+    var cont=0; 
 
     
     if(q1 == "SI")
@@ -29,9 +28,9 @@ function check()
     
     porcentaje = cont*100/4;
     porcentaje = parseInt(porcentaje);
-
+    
   
-    return alert("Tuviste un " + porcentaje + "% de aciertos");
+    return porcentaje;
 
 }
 
@@ -68,7 +67,7 @@ function check2()
     porcentaje = parseInt(porcentaje);
 
   
-    return alert("Tuviste un " + porcentaje + "% de aciertos");
+    return porcentaje;
 
 }
 function check3()
@@ -104,7 +103,7 @@ function check3()
     porcentaje = parseInt(porcentaje);
 
   
-    return alert("Tuviste un " + porcentaje + "% de aciertos");
+    return porcentaje;
 
 }
 function check4()
@@ -140,7 +139,7 @@ function check4()
     porcentaje = parseInt(porcentaje);
 
   
-    return alert("Tuviste un " + porcentaje + "% de aciertos");
+    return porcentaje;
 
 }
 function check5()
@@ -176,7 +175,7 @@ function check5()
     porcentaje = parseInt(porcentaje);
 
   
-    return alert("Tuviste un " + porcentaje + "% de aciertos");
+    return porcentaje;
 
 }
 

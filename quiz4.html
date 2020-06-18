@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <script type="text/javascript" src="js/func.js"></script>
+    <script type="text/javascript" src="js/vex.combined.min.js"></script>
+        <link rel="stylesheet" href="css/vex.css" >
+        <link rel="stylesheet" href="css/vex-theme-default.css" >
+        <link rel="stylesheet" href="css/vex-theme-os.css" >
+        <link rel="stylesheet" href="css/vex-theme-plain.css" >
+        <link rel="stylesheet" href="css/vex-theme-wireframe.css" >
+        <link rel="stylesheet" href="css/vex-theme-flat-attack.css" >
+        <link rel="stylesheet" href="css/vex-theme-top.css" >
+        <link rel="stylesheet" href="css/vex-theme-bottom-right-corner.css" >
     <title>Cuarto Quiz</title>
     <style>
       
@@ -47,7 +56,7 @@
 </center>
 <center>
     <div class="boton">
-        <input id="button" type="button" value="Resultados" onclick="check4();">
+        <button type="button" onclick="vex.dialog.alert({message: 'El Porcentaje de sus respuestas es: '+ check4()+ '%', className: 'vex-theme-flat-attack'})">Resultados</button>
     </div>
 </center>
     <center>
